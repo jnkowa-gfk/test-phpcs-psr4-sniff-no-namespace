@@ -55,7 +55,7 @@ Time: 61ms; Memory: 4MB
 additional info:
 
 ```
-$ php -r 'require_once "vendor/autoload.php"; var_dump(class_exists("\Bar\Bazz"));'
+$ php -r 'require_once "vendor/autoload.php"; var_dump(class_exists("\\Bar\\Bazz"));'
 bool(true)
 ```
 
