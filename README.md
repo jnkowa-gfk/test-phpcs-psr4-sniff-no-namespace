@@ -1,7 +1,7 @@
 # TEST [phpcs-psr4-sniff] with non-namespaced
 
 ## purpose
-It seams like [phpcs-psr4-sniff] v2.2.1 has issues
+It seems like [phpcs-psr4-sniff] v2.2.1 has [issue]s
 when there is no namespace defined.
 
 This should be no issue, since the following is totally fine
@@ -78,3 +78,4 @@ composer run test
 ```
 
 [phpcs-psr4-sniff]: https://packagist.org/packages/suin/phpcs-psr4-sniff
+[issue]: https://github.com/suin/php/issues/4
