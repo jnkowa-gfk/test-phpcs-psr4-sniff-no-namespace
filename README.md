@@ -73,6 +73,8 @@ Zend Engine v3.3.25, Copyright (c) 1998-2018 Zend Technologie
 
 ## how to run the tests
 
+after installing [phpcs-psr4-sniff] via `composer install` run the following:
+
 ```shell script
 composer run test
 ```
