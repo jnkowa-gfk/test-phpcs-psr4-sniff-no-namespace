@@ -1,0 +1,16 @@
+{
+    "name": "jnkowa/test-phpcs-psr4-sniff-no-namespace",
+    "description": "TEST phpcs-psr4-sniff with non-namespaced",
+    "type": "test",
+    "require": {
+        "suin/phpcs-psr4-sniff": "2.2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "scripts": {
+        "test": "phpcs src"
+    }
+}
