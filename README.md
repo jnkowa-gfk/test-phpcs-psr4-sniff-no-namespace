@@ -27,7 +27,7 @@ that does not use a namespace at all.
 
 ### observed test results
 
-* classes reported to have wrong paths.
+* classes reported to have wrong names paces or names.
 
 running the tests:
 
